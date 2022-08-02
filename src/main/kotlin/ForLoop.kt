@@ -11,8 +11,9 @@ fun main() {
     for(x in 30 downTo 1 step 4){
         println(x)
     }
-    val list= listOf<String>("Apple","Orange","Banana","Grape")
-     for(i in list){
+    val list= listOf<String>("Apple","Orange","Banana","Grape","Banana")
+    var l=list.distinct()
+     for(i in l){
          println(i)
      }
 
