@@ -1,5 +1,5 @@
 fun main() {
-    val list= listOf<Int>(10,2,5,6,8,2,7)
+    val list= arrayOf<Int>(10,2,5,6,8,2,7)
     println("Size of List ${list.size}")
     println("Minimum number of list : ${list.min()}")
     println("Minimum number of list : ${list.max()}")
@@ -18,4 +18,7 @@ fun main() {
     println("Last Number ${list.last()}")
     println("First Number ${list.first()}")
     println( "Number of index 3: ${list[3]}")
+    println("${list.reversed()}")
+
+
 }
