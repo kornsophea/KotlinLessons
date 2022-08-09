@@ -18,6 +18,9 @@ fun main(args: Array<String>) {
 //
 //    val name:String?=null
 
-    val number:Int = Random.nextInt(200)
-    print(number)
+//    val number:Int = Random.nextInt(200)
+//    print(number)
+    var a=10
+    var b=20
+    var smallNumber:Int
 }
