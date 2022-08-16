@@ -16,7 +16,6 @@ class Person(id:Int,name:String,sex:String){//
         println("$id \t $name \t $sex  ")
     }
 
-
 }
 //Encapsulation  Inheritance  Polymorphism Abstract
 //person id name sex
